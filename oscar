@@ -1,0 +1,13 @@
+1 - SELECT * FROM `oscar` WHERE name = "Natalie Portman";
+      3
+      
+2 - SELECT * FROM `oscar` WHERE name = "Natalie Portman" AND winner="True";
+      1
+3 - SELECT * FROM `oscar` WHERE name = "Amy Adams";
+Não, mas já foi indicada em 6
+
+4 - SELECT * FROM `oscar` WHERE name LIKE '%Leonardo%';
+Sim
+
+5 - SELECT * FROM `oscar` WHERE film = 'Toy Story 3' AND winner = "TRUE";
+2011
