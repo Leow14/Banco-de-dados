@@ -6,8 +6,13 @@
 3 - SELECT * FROM `oscar` WHERE name = "Amy Adams";
 Não, mas já foi indicada em 6
 
-4 - SELECT * FROM `oscar` WHERE name LIKE '%Leonardo%';
+4 - SELECT * FROM `oscar` WHERE name LIKE '%Leonardo%' AND winner = 'True';
 Sim
 
 5 - SELECT * FROM `oscar` WHERE film = 'Toy Story 3' AND winner = "TRUE";
 2011
+
+6 - SELECT * FROM `oscar` WHERE category = "ACTOR" AND winner = "true";
+49 Melhor ator
+SELECT * FROM `oscar` WHERE category = "best picture" AND winner = "true";
+58 Melhor filme
